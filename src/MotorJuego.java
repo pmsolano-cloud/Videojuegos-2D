@@ -65,4 +65,17 @@ public class MotorJuego {
             && a.getY() < b.getY() + b.getAlto()
             && a.getY() + a.getAlto() > b.getY();
 }
+public int contarEnemigos() {
+
+    int contador = 0;
+
+    for (EntidadVideojuego entidad : entidades) {
+
+        if (entidad instanceof Enemigo) {
+            contador++;
+        }
+    }
+
+    return contador;
+}
 }
