@@ -353,6 +353,33 @@ Jugador --> UC6
 
 ---
 
+# Ejecución
+
+Al ejecutar la aplicación por consola se muestra el menú principal del juego:
+
+```text
+================================
+ CYBERBOOM 2084
+ Sobrevive a los drones
+================================
+
+Vida: 100
+Drones activos: 3
+
+Posicion jugador: (0,0)
+
+1. Izquierda
+2. Derecha
+3. Arriba
+4. Abajo
+5. Disparar
+6. Salir
+
+Accion:
+```
+
+A partir de este punto, el jugador puede introducir acciones mediante teclado para desplazarse, disparar o abandonar la partida. Las decisiones tomadas afectan al estado del juego, la posición de las entidades y el resultado final de la partida.
+
 # Uso de Inteligencia Artificial
 
 ## Herramienta utilizada
