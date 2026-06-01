@@ -56,4 +56,13 @@ public class MotorJuego {
                             ")");
         }
     }
+    public boolean detectarColision(
+        EntidadVideojuego a,
+        EntidadVideojuego b) {
+
+    return a.getX() < b.getX() + b.getAncho()
+            && a.getX() + a.getAncho() > b.getX()
+            && a.getY() < b.getY() + b.getAlto()
+            && a.getY() + a.getAlto() > b.getY();
+}
 }
